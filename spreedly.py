@@ -45,6 +45,7 @@ class Protocol(object):
         'boolean': lambda s: s == 'true',
         'string': unicode,
         'datetime': str_to_datetime,
+        'SubscriptionPlan::Version': unicode,
     }
 
     def __init__(self, token, site_name):
