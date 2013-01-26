@@ -188,7 +188,7 @@ def change_subscription_url(site_name, token, return_url):
     }
 
 
-__all__ = (Spreedly, SpreedlyException, subscribe_url, change_subscription_url)
+__all__ = ('Spreedly', 'SpreedlyException', 'subscribe_url', 'change_subscription_url')
 
 if __name__ == '__main__':
     import unittest
